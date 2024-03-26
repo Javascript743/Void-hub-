@@ -1,0 +1,15 @@
+local a=loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local b=a.CreateLib("Void Hub Arsenal","DarkTheme")
+local c=b:NewTab("Main")
+
+local d=c:NewSection("Main")d:NewButton("Extended Hitbox","It Will Give You A Bigger Chance Of Shooting Somebody",function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/4BLvubwJ"))()end)
+end)
+
+local i=b:NewTab("Player")
+local j=i:NewSection("Player")j:NewButton("ESP","You Can Track Player From All Around The Map",function()
+  loadstring(game:HttpGet("https://cdn.wearedevs.net/scripts/WRD%20ESP.txt"))()
+end)
+local k = j:NewButton("Kill All", "idk its just kill all",function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/AnimatedKurai/Scripts/main/Arsenal%20Kill%20All.txt'))()
+end)
